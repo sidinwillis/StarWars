@@ -17,7 +17,7 @@ namespace StarWars.Data.EntityFramework
             : base(options)
         {
             _logger = logger;
-            //Database.EnsureCreated();
+            Database.EnsureCreated();
             //Database.Migrate();
         }
 
